@@ -5,6 +5,5 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(Project_calculator
         calculator.cpp
-        calculator.h
         main.cpp
-        main.h)
+)
