@@ -1,10 +1,10 @@
 #include <iostream>
+#include "calculator.cpp"
 using namespace std;
 
 int main() {
     Calculator calc;
     double a, b;
-
     cout << "Введіть перше число: ";
     cin >> a;
 
