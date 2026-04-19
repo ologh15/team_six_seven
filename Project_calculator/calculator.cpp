@@ -1,5 +1,10 @@
-//
-// Created by gigabyte on 19.04.2026.
-//
+#include <iostream>
+using namespace std;
 
-#include "calculator.h"
+class Calculator {
+public:
+    double add(double a, double b) {
+        return a + b;
+    }
+
+
