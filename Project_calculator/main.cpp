@@ -1,20 +1,20 @@
-#include <iostream> 
+#include <iostream>
 #include "calculator.cpp"
+using namespace std;
 
 int main() {
     Calculator calc;
     double a, b;
-
-    cout << "First num: ";
+    cout << "Введіть перше число: ";
     cin >> a;
 
-    cout << "Second num: ";
+    cout << "Введіть друге число: ";
     cin >> b;
 
-    cout << "Addition: " <<endl;
-    cout << "Subtraction: " << calc.subtract(a, b) << endl;
-    cout << "Multiplication: " << calc.divide(a, b) << endl;
-    cout << "Division: " << calc.subtract(a, b) << endl;
+    cout << "Додавання: " << calc.add(a, b) << endl;
+    cout << "Віднімання: " << calc.subtract(a, b) << endl;
+    cout << "Множення: " << calc.multiply(a, b) << endl;
+    cout << "Ділення: " << calc.divide(a, b) << endl;
 
     return 0;
 }
