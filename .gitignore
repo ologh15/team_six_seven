@@ -1,0 +1,48 @@
+# =========================
+# CLion / CMake
+# =========================
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+
+# CLion settings
+.idea/
+
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.vcxproj*
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build folders
+Debug/
+Release/
+x64/
+x86/
+build/
+
+# =========================
+# C++ build files
+# =========================
+*.o
+*.obj
+*.exe
+*.out
+*.dll
+*.lib
+*.a
+*.pdb
+*.ilk
+*.log
+
+# =========================
+# Other
+# =========================
+*.tmp
+*.cache
